@@ -1,0 +1,21 @@
+# ===== OCR引擎 =====
+easyocr>=1.7.0                 # 离线中文OCR（纯Python，兼容性好）
+
+# ===== 模糊匹配 =====
+rapidfuzz>=3.9.0               # 高速模糊字符串匹配
+
+# ===== 题库解析 =====
+openpyxl>=3.1.0                # Excel .xlsx 解析
+rarfile>=4.1                   # RAR解压（需要unrar.exe）
+pandas>=2.0.0                  # CSV/表格数据处理
+python-docx>=1.0.0             # Word文档解析
+
+# ===== GitHub下载 =====
+requests>=2.31.0               # HTTP下载
+
+# ===== 截图 =====
+Pillow>=10.0.0                 # 截图+图像处理
+mss>=9.0.0                     # 高性能跨平台截图
+
+# ===== 打包工具 =====
+pyinstaller>=6.0.0             # 打包成exe

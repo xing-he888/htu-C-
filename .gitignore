@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+venv/
+
+# OCR models (downloaded on first run)
+ocr_models/
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# Large data files
+*.rar
+*.zip
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config with secrets
+config.json
